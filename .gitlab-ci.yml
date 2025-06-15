@@ -30,20 +30,48 @@ docker-build:
   tags: [docker]
 ba
 # .gitlab-ci.yml
+# ───────────── GitLab CI for “chatgpt-recommender” ─────────────
+# • Stage 1 – unit-tests (always runs)
+# • Stage 2 – docker-build  (runs only if you set BUILD_DOCKER_IMAGE=true)
+
 stages:
+  - test
   - build
 
+# Docker-in-Docker needs TLS disabled in the shared runners
 variables:
-  DOCKER_TLS_CERTDIR: ""  # нужно для docker:dind без TLS
+  DOCKER_TLS_CERTDIR: ""
 
+# ───────────────────────── 1.  tests ───────────────────────────
+unit-tests:
+  stage: test
+  image: node:20            # ← or python:3.11, golang:1.22 … whatever you test
+  tags: [docker]            # runner tag (remove if you don’t use tags)
+  script:
+    - echo "🔎 run your npm / pytest / go test here"  # replace with real cmd
+    # examples:
+    # - npm ci && npm run test
+    # - pip install -r requirements-dev.txt && pytest -q
+
+# ───────────────────────── 2.  build (opt-in) ──────────────────
 docker-build:
   stage: build
-  image: docker:24
+  image: docker:26
   services:
-    - docker:dind
+    - docker:dind           # starts the Docker daemon inside the runner
+  tags: [docker]
+
+  # Run **only** when you explicitly enable it from the UI or `.env`
+  rules:
+    - if: '$BUILD_DOCKER_IMAGE == "true"'
+      when: on_success
+    - when: never           # default (skip)
+
   before_script:
-    # Безопасный логин
-    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin
+    # secure login into the built-in GitLab Registry
+    - echo "$CI_REGISTRY_PASSWORD" \
+        | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+
   script:
-    - docker build -t "$CI_REGISTRY_USER/myimage:latest" .
-    - docker push "$CI_REGISTRY_USER/myimage:latest"
+    - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA" .
+    - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
