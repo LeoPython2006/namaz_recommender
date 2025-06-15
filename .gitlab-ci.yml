@@ -1,34 +1,49 @@
-stages: [build, deploy]
+image: docker:26
+services:
+  - docker:dind
 
+# GitLab’s Docker-in-Docker needs this
 variables:
-  KUBE_NAMESPACE: "${KUBE_NAMESPACE}"
+  DOCKER_TLS_CERTDIR: ""       # disable TLS inside DinD for simplicity
 
-build:
-  stage: build
-  image: docker:24
-  services: [docker:dind]
+stages: [test, build]
+
+# ─────────────────── tests only ───────────────────
+unit-tests:
+  stage: test
   script:
-    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+    - echo "🔎 run your npm / pytest / go test commands here"
+  tags: [docker]
+
+# ─────────────────── optional container build ─────
+docker-build:
+  stage: build
+  rules:
+    # skip the whole job unless you deliberately enabled it
+    - if: '$BUILD_DOCKER_IMAGE == "true"'
+  script:
+    # log in to GitLab registry (credentials are injected automatically)
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+    # build & push
     - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA" .
     - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
-  only: [main]
+  tags: [docker]
+ba
+# .gitlab-ci.yml
+stages:
+  - build
 
-deploy:
-  stage: deploy
-  image: bitnami/kubectl:1.30
+variables:
+  DOCKER_TLS_CERTDIR: ""  # нужно для docker:dind без TLS
+
+docker-build:
+  stage: build
+  image: docker:24
+  services:
+    - docker:dind
   before_script:
-    - mkdir -p ~/.kube
-    - echo "$KUBE_CONFIG" | base64 -d > ~/.kube/config
-  script: |
-    helm repo add gitlab https://charts.gitlab.io
-    helm upgrade --install recommender gitlab/auto-deploy-app \
-      --namespace "$KUBE_NAMESPACE" --create-namespace \
-      --set image.repository="$CI_REGISTRY_IMAGE" \
-      --set image.tag="$CI_COMMIT_SHORT_SHA" \
-      --set gitlab.app=myapp \
-      --set env[0].name=NEXTAUTH_URL \
-      --set env[0].value=https://$CI_PROJECT_NAME.$KUBE_BASE_DOMAIN
-  environment:
-    name: production
-    url: https://$CI_PROJECT_NAME.$KUBE_BASE_DOMAIN
-  only: [main]
+    # Безопасный логин
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin
+  script:
+    - docker build -t "$CI_REGISTRY_USER/myimage:latest" .
+    - docker push "$CI_REGISTRY_USER/myimage:latest"
