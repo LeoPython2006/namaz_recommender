@@ -33,11 +33,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/chat', methods=['POST', 'OPTIONS'])
-def chat():
-    if request.method == 'OPTIONS':
-        # Preflight request
-        return '', 204
+
 @app.route('/chat', methods=['POST'])
 def chat():
     user_query = request.json.get('message', '')
