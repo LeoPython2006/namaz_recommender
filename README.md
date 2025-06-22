@@ -39,3 +39,10 @@ Use the `deploy.sh` script to push this project to GitHub and enable GitHub Page
 ```
 
 The script uses the GitHub CLI (`gh`) and will output the public Pages URL. You can then deploy `webapp/app.py` to any Python hosting service (Heroku, Render, etc.) and update `BACKEND_URL` accordingly.
+## Website
+
+A minimal static site is available in the `docs` directory. To publish it on GitHub Pages:
+
+1. Push this repository to GitHub.
+2. In the repository **Settings**, enable GitHub Pages for the `docs/` folder.
+3. GitHub will provide a public URL for your site after a few minutes.
