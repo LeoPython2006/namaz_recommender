@@ -19,3 +19,11 @@ python chatbot.py
 Type your question in Russian and the bot will respond with the closest answer or a list of recommended links.
 
 Type `exit` to quit the chat.
+
+## Website
+
+A minimal static site is available in the `docs` directory. To publish it on GitHub Pages:
+
+1. Push this repository to GitHub.
+2. In the repository **Settings**, enable GitHub Pages for the `docs/` folder.
+3. GitHub will provide a public URL for your site after a few minutes.
