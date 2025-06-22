@@ -1,0 +1,403 @@
+[
+  {
+    "query": "Как поделиться приложением с друзьями?",
+    "response": "Нажмите [Share with friends](feature:share_app) в разделе [Support NamazApp](section:support_links)."
+  },
+  {
+    "query": "Как оценить приложение в App Store?",
+    "response": "Перейдите в [Support NamazApp](section:support_links) и выберите [Rate us in AppStore](feature:rate_app)."
+  },
+  {
+    "query": "Как задать вопрос через WhatsApp?",
+    "response": "Откройте [Customer Support](section:ask_question) и нажмите [Ask a question in WhatsApp](link:whatsapp_developer)."
+  },
+  {
+    "query": "Как включить тёмную тему?",
+    "response": "В [App settings](section:app_settings) включите [Allow dark mode](setting:dark_mode)."
+  },
+  {
+    "query": "Как сменить язык приложения?",
+    "response": "Перейдите в [App settings](section:app_settings) \u2192 [App Language](setting:language) и выберите предпочитаемый язык."
+  },
+  {
+    "query": "Как настроить, какие молитвы отображаются на главной странице?",
+    "response": "В [App settings](section:app_settings) \u2192 [Prayers displayed on the main page](setting:prayer_display) выберите \u00abfard_only\u00bb или \u00abfard_with_sunnah\u00bb."
+  },
+  {
+    "query": "Как показывать необязательные сунны?",
+    "response": "В [App settings](section:app_settings) включите [Show non-emphasized sunnahs too](setting:ghayr_muakkadah_prayers)."
+  },
+  {
+    "query": "Как задать пол для молитвы?",
+    "response": "Перейдите в [Prayer settings](section:prayer_settings) \u2192 [Prayer for](setting:gender) и выберите мужской или женский."
+  },
+  {
+    "query": "Как изменить алфавит для транслитерации?",
+    "response": "В [Prayer settings](section:prayer_settings) \u2192 [Transliteration alphabet](setting:transliteration_alphabet) выберите Latin, Cyrillic или None."
+  },
+  {
+    "query": "Как изменить язык перевода?",
+    "response": "В [Prayer settings](section:prayer_settings) \u2192 выберите [Translation of meaning](setting:translation_language)."
+  },
+  {
+    "query": "Как изменить размер шрифта арабского текста?",
+    "response": "В [Prayer settings](section:prayer_settings) \u2192 [Font sizes](section:font_size) \u2192 выберите [Arabic](setting:arabic_size)."
+  },
+  {
+    "query": "Как изменить размер шрифта транслитерации?",
+    "response": "В [Prayer settings](section:prayer_settings) \u2192 [Font sizes](section:font_size) \u2192 выберите [Transliteration](setting:text_size)."
+  },
+  {
+    "query": "Как изменить размер шрифта перевода?",
+    "response": "В [Prayer settings](section:prayer_settings) \u2192 [Font sizes](section:font_size) \u2192 выберите [Meaning](setting:meaning_size)."
+  },
+  {
+    "query": "Как изменить размер шрифта подзаголовка комментариев?",
+    "response": "В [Prayer settings](section:prayer_settings) \u2192 [Font sizes](section:font_size) \u2192 выберите [Comments](setting:subtitle_size)."
+  },
+  {
+    "query": "Что такое функция \u00abКибла\u00bb?",
+    "response": "Функция \u00abКибла\u00bb показывает направление молитвы в зависимости от вашего местоположения.\nПодробнее: [Qibla \u2013 direction of prayer](article:about_qibla)."
+  },
+  {
+    "query": "Как включить расписание молитв в приложении?",
+    "response": "В [Prayer time](section:prayer_time) \u2192 включите [Enable prayer times](setting:location)."
+  },
+  {
+    "query": "Как настроить параметры расч\u00ebта времени молитв?",
+    "response": "В [Prayer time](section:prayer_time) \u2192 откройте [Calculation settings](setting:prayer_time_settings) и настройте по необходимости."
+  },
+  {
+    "query": "Как зайти в настройки уведомлений?",
+    "response": "Откройте [Notification settings](section:notification_settings)."
+  },
+  {
+    "query": "Как пройти викторину \u00abЧто такое намаз?\u00bb?",
+    "response": "В [Getting started](section:general) \u2192 нажмите [Quiz: What is Namaz?](quiz:namaz_quiz)."
+  },
+  {
+    "query": "Как пройти викторину \u00abПоняли ли вы категории?\u00bb?",
+    "response": "В [Getting started](section:general) \u2192 нажмите [Did you understand the categories?](quiz:prayer_categories_quiz)."
+  },
+  {
+    "query": "Как пройти викторину \u00abКлюч к молитве\u00bb?",
+    "response": "В [Prayer rules](section:prayer_rules) \u2192 нажмите [Key to prayer](quiz:taharah_key)."
+  },
+  {
+    "query": "Как начать викторину по вуду?",
+    "response": "В [Taharah: physical and ritual purification](section:taharah_haqiqi) \u2192 нажмите [Fard and sunnah in wudu](quiz:performing_wudu)."
+  },
+  {
+    "query": "Как начать викторину по гусль?",
+    "response": "В [Taharah: physical and ritual purification](section:taharah_haqiqi) \u2192 нажмите [Fard and sunnah in ghusl](quiz:performing_ghusl)."
+  },
+  {
+    "query": "Как наверстать пропущенные молитвы?",
+    "response": "Перейдите во вкладку \u00abОбучение\u00bb > \u00abПравила молитвы\u00bb и нажмите \u00abКак наверстать пропущенные молитвы?\u00bb."
+  },
+  {
+    "query": "Где найти статью об удалении физических нечистот?",
+    "response": "См. \u00abКак удалить физические нечистоты\u00bb: [How to remove physical impurities](article:removing_impurities)"
+  },
+  {
+    "query": "Как выбрать определ\u00ebнный диапазон аятов Корана для воспроизведения?",
+    "response": "Перейдите во вкладку \u00abListen and Memorize\u00bb и нажмите **Select a range to play**.\nТакже можно воспользоваться [Select a range to play](feature:range_selector)."
+  },
+  {
+    "query": "Где найти мои сохран\u00ebнные записи чтения?",
+    "response": "Во вкладке \u00abListen and Memorize\u00bb выберите **My recordings**.\nИли откройте [My recordings](collection:recordings)."
+  },
+  {
+    "query": "Как принять участие в исследовании персонализированных рекомендаций?",
+    "response": "Перейдите во вкладку \u00abPray\u00bb \u2192 Recommended activity и ответьте на опрос **Get personalized recommendations**.\nНажмите [Get personalized recommendations](questionnaire:recommender_study_consent)."
+  },
+  {
+    "query": "Как просмотреть помеченные как избранные молитвы?",
+    "response": "Нажмите \u2b50\ufe0f рядом с любой молитвой, затем перейдите в раздел **Favourites** во вкладке \u00abPray\u00bb.\nИли откройте [Favourites](collection:favourites)."
+  },
+  {
+    "query": "Рекомендуйте приложения для изучения арабского алфавита",
+    "recommended_items": [
+      {
+        "id": "joode",
+        "title": "Joode: \u0430\u0440\u0430\u0431\u0441\u043a\u0438\u0439 \u0430\u043b\u0444\u0430\u0432\u0438\u0442 \u0437\u0430 20 \u043c\u0438\u043d\u0443\u0442",
+        "url": "[Joode: \u0430\u0440\u0430\u0431\u0441\u043a\u0438\u0439 \u0430\u043b\u0444\u0430\u0432\u0438\u0442 \u0437\u0430 20 \u043c\u0438\u043d\u0443\u0442](https://apps.apple.com/us/app/id1138728895)"
+      },
+      {
+        "id": "thani",
+        "title": "Thani: \u0443\u0447\u0438\u043c\u0441\u044f \u0447\u0438\u0442\u0430\u0442\u044c \u043d\u0430 \u0430\u0440\u0430\u0431\u0441\u043a\u043e\u043c",
+        "url": "[Thani: \u0443\u0447\u0438\u043c\u0441\u044f \u0447\u0438\u0442\u0430\u0442\u044c \u043d\u0430 \u0430\u0440\u0430\u0431\u0441\u043a\u043e\u043c](https://apps.apple.com/us/app/id1138728895?platform=iphone)"
+      },
+      {
+        "id": "readar",
+        "title": "\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 Read Arabic",
+        "url": "[\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 Read Arabic](https://apps.apple.com/app/id1364988718?platform=iphone)"
+      },
+      {
+        "id": "online_course",
+        "title": "iSyllabus: \u043b\u0443\u0447\u0448\u0438\u0439 \u043a\u0443\u0440\u0441",
+        "url": "[iSyllabus: \u043b\u0443\u0447\u0448\u0438\u0439 \u043a\u0443\u0440\u0441](https://www.isyllabus.org/)"
+      }
+    ]
+  },
+  {
+    "query": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0439\u0442\u0435 \u043a\u043d\u0438\u0433\u0438 \u0434\u043b\u044f \u0443\u0433\u043b\u0443\u0431\u043b\u0451\u043d\u043d\u043e\u0433\u043e \u0438\u0437\u0443\u0447\u0435\u043d\u0438\u044f \u0438\u0441\u043b\u0430\u043c\u0430",
+    "recommended_items": [
+      {
+        "id": "quran_beheld",
+        "title": "The Quran Beheld",
+        "url": "[The Quran Beheld](https://www.quranbeheld.com/)"
+      },
+      {
+        "id": "seerah_book",
+        "title": "Muhammad (\u0665\u0665\u062f): His Life Based on the Earliest Sources",
+        "url": "[Muhammad (\u0665\u0665\u062f): His Life Based on the Earliest Sources](https://bookstore.zaytuna.edu/products/muhammad-his-life-based-on-the-earliest-sources)"
+      },
+      {
+        "id": "forty_principles",
+        "title": "The Forty Principles of the Religion",
+        "url": "[The Forty Principles of the Religion](https://www.meccabooks.com/products/al-ghazali-s-forty-principles-of-the-religion-al-arba-in-fi-usul-ad-din)"
+      },
+      {
+        "id": "fiqh_akbar",
+        "title": "Al-Fiqh al-Akbar Explained",
+        "url": "[Al-Fiqh al-Akbar Explained](https://www.meccabooks.com/products/imam-abu-hanifa-s-al-fiqh-al-akbar-explained)"
+      },
+      {
+        "id": "ascent",
+        "title": "Ascent to Felicity",
+        "url": "[Ascent to Felicity](https://www.whitethreadpress.com/products/ascent-to-felicity)"
+      }
+    ]
+  },
+  {
+    "query": "\u041a\u0430\u043a\u043e\u0439 \u0444\u043e\u043d\u0434 \u0434\u043b\u044f \u043f\u043e\u0436\u0435\u0440\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u0439 \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043d \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438?",
+    "recommended_items": [
+      {
+        "id": "ghaza_charity",
+        "title": "Palestine Emergency Appeal",
+        "url": "[Palestine Emergency Appeal](https://campaigns.givebrite.com/fundraiser/oneummah-palestine-emergency-smile2jannah)"
+      }
+    ]
+  },
+  {
+    "query": "\u041d\u0430 \u043a\u0430\u043a\u0438\u0435 \u0441\u043e\u0446\u0441\u0435\u0442\u0438 \u0441\u0442\u043e\u0438\u0442 \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f?",
+    "recommended_items": [
+      {
+        "id": "youtube",
+        "title": "\u041a\u0430\u043d\u0430\u043b YouTube",
+        "url": "[\u041a\u0430\u043d\u0430\u043b YouTube](link:youtube)"
+      },
+      {
+        "id": "telegram",
+        "title": "\u041a\u0430\u043d\u0430\u043b Telegram",
+        "url": "[\u041a\u0430\u043d\u0430\u043b Telegram](link:telegram)"
+      },
+      {
+        "id": "readar",
+        "title": "\u0410\u043a\u043a\u0430\u0443\u043d\u0442 Twitter",
+        "url": "[\u0410\u043a\u043a\u0430\u0443\u043d\u0442 Twitter](link:readar)"
+      }
+    ]
+  },
+  {
+    "query": "\u0413\u0434\u0435 \u0443\u0437\u043d\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438 \u0438 \u0435\u0433\u043e \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430\u0445?",
+    "recommended_items": [
+      {
+        "id": "about_us",
+        "title": "\u041e \u043d\u0430\u0441",
+        "url": "[\u041e \u043d\u0430\u0441](article:about_us)"
+      }
+    ]
+  },
+  {
+    "query": "\u0413\u0434\u0435 \u043c\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c \u043f\u0440\u043e \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u043e\u043b\u0438\u0442\u0432\u044b (\u0444\u0430\u0440\u0434)?",
+    "recommended_items": [
+      {
+        "id": "fard_prayers",
+        "title": "\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u043e\u043b\u0438\u0442\u0432\u044b (\u0444\u0430\u0440\u0434)",
+        "url": "[\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u043e\u043b\u0438\u0442\u0432\u044b (\u0444\u0430\u0440\u0434)](article:fard_prayers)"
+      }
+    ]
+  },
+  {
+    "query": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0439\u0442\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f\u043c \u043c\u043e\u043b\u0438\u0442\u0432",
+    "recommended_items": [
+      {
+        "id": "action_categories",
+        "title": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439",
+        "url": "[\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439](article:action_categories)"
+      },
+      {
+        "id": "prayer_categories",
+        "title": "\u0422\u0438\u043f\u044b \u043c\u043e\u043b\u0438\u0442\u0432",
+        "url": "[\u0422\u0438\u043f\u044b \u043c\u043e\u043b\u0438\u0442\u0432](article:prayer_categories)"
+      }
+    ]
+  },
+  {
+    "query": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0439\u0442\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 \u043e \u043f\u0440\u0430\u0432\u0438\u043b\u0430\u0445 \u043c\u043e\u043b\u0438\u0442\u0432\u044b",
+    "recommended_items": [
+      {
+        "id": "prayer_essentials",
+        "title": "\u041e\u0441\u043d\u043e\u0432\u044b \u043c\u043e\u043b\u0438\u0442\u0432\u044b: \u0448\u0443\u0440\u0443\u0442 \u0438 \u0430\u0440\u043a\u0430\u043d",
+        "url": "[\u041e\u0441\u043d\u043e\u0432\u044b \u043c\u043e\u043b\u0438\u0442\u0432\u044b: \u0448\u0443\u0440\u0443\u0442 \u0438 \u0430\u0440\u043a\u0430\u043d](article:prayer_essentials)"
+      },
+      {
+        "id": "prayer_conditions",
+        "title": "\u0428\u0443\u0440\u0443\u0442: \u043f\u0440\u0435\u0434\u043f\u043e\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0432\u0430\u043b\u0438\u0434\u043d\u043e\u0441\u0442\u0438",
+        "url": "[\u0428\u0443\u0440\u0443\u0442: \u043f\u0440\u0435\u0434\u043f\u043e\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0432\u0430\u043b\u0438\u0434\u043d\u043e\u0441\u0442\u0438](article:prayer_conditions)"
+      },
+      {
+        "id": "prayer_integrals",
+        "title": "\u0410\u0440\u043a\u0430\u043d: \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b \u043c\u043e\u043b\u0438\u0442\u0432\u044b",
+        "url": "[\u0410\u0440\u043a\u0430\u043d: \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b \u043c\u043e\u043b\u0438\u0442\u0432\u044b](article:prayer_integrals)"
+      }
+    ]
+  },
+  {
+    "query": "\u041a\u0430\u043a\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f \u043e\u0431\u044a\u044f\u0441\u043d\u044f\u0435\u0442 \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043c\u043e\u043b\u0438\u0442\u0432?",
+    "recommended_items": [
+      {
+        "id": "prayer_times",
+        "title": "\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043c\u043e\u043b\u0438\u0442\u0432",
+        "url": "[\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043c\u043e\u043b\u0438\u0442\u0432](article:prayer_times)"
+      }
+    ]
+  },
+  {
+    "query": "\u0413\u0434\u0435 \u043d\u0430\u0439\u0442\u0438 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e \u043e\u0447\u0438\u0449\u0435\u043d\u0438\u044e \u043f\u0435\u0440\u0435\u0434 \u043c\u043e\u043b\u0438\u0442\u0432\u043e\u0439?",
+    "recommended_items": [
+      {
+        "id": "taharah_intro",
+        "title": "\u0422\u0430\u0445\u0430\u0440\u0430: \u043e\u0447\u0438\u0449\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0434 \u043c\u043e\u043b\u0438\u0442\u0432\u043e\u0439",
+        "url": "[\u0422\u0430\u0445\u0430\u0440\u0430: \u043e\u0447\u0438\u0449\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0434 \u043c\u043e\u043b\u0438\u0442\u0432\u043e\u0439](article:taharah_intro)"
+      }
+    ]
+  },
+  {
+    "query": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0439\u0442\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 \u043e \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u043c \u043e\u0447\u0438\u0449\u0435\u043d\u0438\u0438",
+    "recommended_items": [
+      {
+        "id": "physical_impurities",
+        "title": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043d\u0435\u0447\u0438\u0441\u0442\u043e\u0442\u044b",
+        "url": "[\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043d\u0435\u0447\u0438\u0441\u0442\u043e\u0442\u044b](article:physical_impurities)"
+      },
+      {
+        "id": "removing_impurities",
+        "title": "\u041a\u0430\u043a \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043d\u0435\u0447\u0438\u0441\u0442\u043e\u0442\u044b",
+        "url": "[\u041a\u0430\u043a \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043d\u0435\u0447\u0438\u0441\u0442\u043e\u0442\u044b](article:removing_impurities)"
+      }
+    ]
+  },
+  {
+    "query": "\u0413\u0434\u0435 \u043c\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c \u043e \u0432\u0443\u0434\u0443 \u0438 \u0433\u0443\u0441\u043b\u044c?",
+    "recommended_items": [
+      {
+        "id": "wudu",
+        "title": "\u0412\u0443\u0434\u0443 \u2014 \u043e\u043c\u043e\u0432\u0435\u043d\u0438\u0435",
+        "url": "[\u0412\u0443\u0434\u0443 \u2014 \u043e\u043c\u043e\u0432\u0435\u043d\u0438\u0435](article:wudu)"
+      },
+      {
+        "id": "ghusl",
+        "title": "\u0413\u0443\u0441\u043b\u044c \u2014 \u043f\u043e\u043b\u043d\u043e\u0435 \u043e\u043c\u043e\u0432\u0435\u043d\u0438\u0435",
+        "url": "[\u0413\u0443\u0441\u043b\u044c \u2014 \u043f\u043e\u043b\u043d\u043e\u0435 \u043e\u043c\u043e\u0432\u0435\u043d\u0438\u0435](article:ghusl)"
+      }
+    ]
+  },
+  {
+    "query": "\u0413\u0434\u0435 \u043c\u043e\u0436\u043d\u043e \u0443\u0437\u043d\u0430\u0442\u044c \u043e \u0441\u0443\u0445\u043e\u043c \u043e\u043c\u043e\u0432\u0435\u043d\u0438\u0438?",
+    "recommended_items": [
+      {
+        "id": "tayammum",
+        "title": "\u0422\u0430\u044f\u043c\u043c\u0443\u043c \u2014 \u0441\u0443\u0445\u043e\u0435 \u043e\u043c\u043e\u0432\u0435\u043d\u0438\u0435",
+        "url": "[\u0422\u0430\u044f\u043c\u043c\u0443\u043c \u2014 \u0441\u0443\u0445\u043e\u0435 \u043e\u043c\u043e\u0432\u0435\u043d\u0438\u0435](article:tayammum)"
+      }
+    ]
+  },
+  {
+    "query": "\u041a\u0430\u043a\u0430\u044f \u0432\u043e\u0434\u0430 \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0434\u043b\u044f \u0432\u0443\u0434\u0443 \u0438 \u0433\u0443\u0441\u043b\u044c?",
+    "recommended_items": [
+      {
+        "id": "water",
+        "title": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0430\u044f \u0432\u043e\u0434\u0430 \u0434\u043b\u044f \u0432\u0443\u0434\u0443 \u0438 \u0433\u0443\u0441\u043b\u044c",
+        "url": "[\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0430\u044f \u0432\u043e\u0434\u0430 \u0434\u043b\u044f \u0432\u0443\u0434\u0443 \u0438 \u0433\u0443\u0441\u043b\u044c](article:water)"
+      }
+    ]
+  },
+  {
+    "query": "\u0413\u0434\u0435 \u043c\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c \u043e\u0431 \u043e\u0447\u0438\u0441\u0442\u043a\u0435 \u043f\u043e\u0441\u043b\u0435 \u0442\u0443\u0430\u043b\u0435\u0442\u0430?",
+    "recommended_items": [
+      {
+        "id": "istinja",
+        "title": "\u0418\u0441\u0442\u0438\u043d\u0434\u0436\u0430 \u2014 \u043e\u0447\u0438\u0441\u0442\u043a\u0430 \u043f\u043e\u0441\u043b\u0435 \u0442\u0443\u0430\u043b\u0435\u0442\u0430",
+        "url": "[\u0418\u0441\u0442\u0438\u043d\u0434\u0436\u0430 \u2014 \u043e\u0447\u0438\u0441\u0442\u043a\u0430 \u043f\u043e\u0441\u043b\u0435 \u0442\u0443\u0430\u043b\u0435\u0442\u0430](article:istinja)"
+      }
+    ]
+  },
+  {
+    "query": "\u041a\u0430\u043a\u0438\u0435 \u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u044b \u043f\u043e\u043c\u043e\u0433\u0443\u0442 \u043c\u043d\u0435 \u0443\u0441\u0432\u043e\u0438\u0442\u044c \u043e\u0447\u0438\u0449\u0435\u043d\u0438\u0435?",
+    "recommended_items": [
+      {
+        "id": "performing_wudu",
+        "title": "\u0424\u0430\u0440\u0434 \u0438 \u0441\u0443\u043d\u043d\u0430 \u0432 \u0432\u0443\u0434\u0443",
+        "url": "[\u0424\u0430\u0440\u0434 \u0438 \u0441\u0443\u043d\u043d\u0430 \u0432 \u0432\u0443\u0434\u0443](quiz:performing_wudu)"
+      },
+      {
+        "id": "performing_ghusl",
+        "title": "\u0424\u0430\u0440\u0434 \u0438 \u0441\u0443\u043d\u043d\u0430 \u0432 \u0433\u0443\u0441\u043b\u044c",
+        "url": "[\u0424\u0430\u0440\u0434 \u0438 \u0441\u0443\u043d\u043d\u0430 \u0432 \u0433\u0443\u0441\u043b\u044c](quiz:performing_ghusl)"
+      }
+    ]
+  },
+  {
+    "query": "\u041a\u0430\u043a\u0438\u0435 \u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u044b \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b \u0434\u043b\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0437\u043d\u0430\u043d\u0438\u0439 \u0432\u0435\u0440\u044b?",
+    "recommended_items": [
+      {
+        "id": "say_shahada",
+        "title": "\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430: \u043f\u0440\u043e\u0438\u0437\u043d\u0435\u0441\u0438 \u0448\u0430\u0445\u0430\u0434\u0443",
+        "url": "[\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430: \u043f\u0440\u043e\u0438\u0437\u043d\u0435\u0441\u0438 \u0448\u0430\u0445\u0430\u0434\u0443](quiz:say_shahada)"
+      },
+      {
+        "id": "islam_imaan_ihsan_quiz",
+        "title": "\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430: \u0418\u0441\u043b\u0430\u043c, \u0418\u043c\u0430\u043d \u0438 \u0418\u0445\u0441\u0430\u043d",
+        "url": "[\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430: \u0418\u0441\u043b\u0430\u043c, \u0418\u043c\u0430\u043d \u0438 \u0418\u0445\u0441\u0430\u043d](quiz:islam_imaan_ihsan_quiz)"
+      }
+    ]
+  },
+  {
+    "query": "\u041a\u0430\u043a\u0430\u044f \u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430 \u043e\u0431\u044a\u044f\u0441\u043d\u044f\u0435\u0442 \u043f\u043e\u043d\u044f\u0442\u0438\u0435 \u043d\u0430\u043c\u0430\u0437?",
+    "recommended_items": [
+      {
+        "id": "namaz_quiz",
+        "title": "\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430: \u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u043d\u0430\u043c\u0430\u0437?",
+        "url": "[\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430: \u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u043d\u0430\u043c\u0430\u0437?](quiz:namaz_quiz)"
+      }
+    ]
+  },
+  {
+    "query": "\u0413\u0434\u0435 \u043d\u0430\u0439\u0442\u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043e \u0434\u0443\u0430?",
+    "recommended_items": [
+      {
+        "id": "dua",
+        "title": "\u041a\u0430\u043a \u0434\u0435\u043b\u0430\u0442\u044c \u0434\u0443\u0430",
+        "url": "[\u041a\u0430\u043a \u0434\u0435\u043b\u0430\u0442\u044c \u0434\u0443\u0430](article:dua)"
+      }
+    ]
+  },
+  {
+    "query": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0439\u0442\u0435 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 \u043f\u043e \u043e\u0441\u043d\u043e\u0432\u0430\u043c \u043c\u043e\u043b\u0438\u0442\u0432\u044b",
+    "recommended_items": [
+      {
+        "id": "fard_prayers",
+        "title": "\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u043e\u043b\u0438\u0442\u0432\u044b (\u0444\u0430\u0440\u0434)",
+        "url": "[\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u043e\u043b\u0438\u0442\u0432\u044b (\u0444\u0430\u0440\u0434)](article:fard_prayers)"
+      },
+      {
+        "id": "prayer_categories",
+        "title": "\u0422\u0438\u043f\u044b \u043c\u043e\u043b\u0438\u0442\u0432",
+        "url": "[\u0422\u0438\u043f\u044b \u043c\u043e\u043b\u0438\u0442\u0432](article:prayer_categories)"
+      }
+    ]
+  }
+]
