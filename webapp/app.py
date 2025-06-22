@@ -38,6 +38,8 @@ def chat():
     if request.method == 'OPTIONS':
         # Preflight request
         return '', 204
+@app.route('/chat', methods=['POST'])
+def chat():
     user_query = request.json.get('message', '')
     if not user_query:
         return jsonify({'response': 'Введите вопрос.'})

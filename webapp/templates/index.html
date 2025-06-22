@@ -38,6 +38,9 @@ async function send() {
     } catch (err) {
         append('bot', 'Ошибка соединения. Убедитесь, что сервер работает.');
     }
+    const res = await fetch('/chat', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({message:text})});
+    const data = await res.json();
+    append('bot', data.response);
 }
 function append(role, text) {
     const div = document.getElementById('messages');
