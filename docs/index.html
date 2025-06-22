@@ -15,6 +15,7 @@
 <body>
 <div id="chat">
     <h1>NamazApp Chatbot</h1>
+<p>This page talks to a Flask backend. Update <code>BACKEND_URL</code> in the script below so it points to your running server (for example <code>http://localhost:8000</code>). Serve this file via GitHub Pages or any static web server.</p>
     <p>This site expects a running backend server. Update <code>BACKEND_URL</code> in the script below to point to your deployed Flask app.</p>
     <div id="messages"></div>
     <input id="input" type="text" placeholder="Введите вопрос" style="width:80%">
@@ -28,6 +29,18 @@ async function send() {
     if (!text) return;
     append('user', text);
     input.value = '';
+    try {
+        const res = await fetch(BACKEND_URL + '/chat', {
+            method: 'POST',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({message:text})
+        });
+        const data = await res.json();
+        append('bot', data.response);
+    } catch (err) {
+        append('bot', 'Ошибка соединения. Убедитесь, что запущен сервер.');
+    }
+
     const res = await fetch(BACKEND_URL + '/chat', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({message:text})});
     const data = await res.json();
     append('bot', data.response);

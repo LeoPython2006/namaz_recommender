@@ -22,6 +22,7 @@ Type `exit` to quit the chat.
 
 ## Web Chat
 
+A simple web interface is provided in `webapp/`. Make sure the Flask package is installed and then start the server. Visit `http://localhost:8000` in your browser (do not open the HTML file directly):
 A simple web interface is provided in `webapp/`. Start the Flask server and open `http://localhost:8000`:
 
 ```bash

@@ -15,6 +15,7 @@
 <body>
 <div id="chat">
     <h1>NamazApp Chatbot</h1>
+    <p>Open this page via <code>http://localhost:8000</code> after starting <code>webapp/app.py</code>.</p>
     <div id="messages"></div>
     <input id="input" type="text" placeholder="Введите вопрос" style="width:80%">
     <button onclick="send()">Отправить</button>
@@ -26,6 +27,17 @@ async function send() {
     if (!text) return;
     append('user', text);
     input.value = '';
+    try {
+        const res = await fetch('/chat', {
+            method: 'POST',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({message:text})
+        });
+        const data = await res.json();
+        append('bot', data.response);
+    } catch (err) {
+        append('bot', 'Ошибка соединения. Убедитесь, что сервер работает.');
+    }
     const res = await fetch('/chat', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({message:text})});
     const data = await res.json();
     append('bot', data.response);
