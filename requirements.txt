@@ -1,0 +1,13 @@
+transformers
+faiss-cpu
+scikit-learn
+numpy
+pandas
+flask
+sentence-transformers
+openai
+fastapi
+uvicorn
+python-telegram-bot
+motor
+pymongo 
