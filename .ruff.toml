@@ -1,0 +1,5 @@
+line-length = 100
+select = ["E", "F", "W", "I", "N", "B", "PL", "RUF"]   # pycodestyle, pyflakes, isort-style, bugbear, pylint…
+ignore = ["E501"]                                       # ignore long-line rule for now
+target-version = "py38"                                # project supports 3.8+
+exclude = [".venv", "venv", "__pycache__"]
